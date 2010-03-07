@@ -36,7 +36,7 @@ django model class.
 
 The other arguments are ``'type'`` and ``'name'``.
 
-``'type'`` can be any of the following:
+``'type'`` can be any of the following, defaults to ``'point'``:
 
 * ``'point'`` for a ``PointField``
 * ``'multi_point'`` for a ``MultiPointField``
@@ -44,6 +44,7 @@ The other arguments are ``'type'`` and ``'name'``.
 * ``'multi_poly`` for a ``MultiPolygonField``
 
 ``'name'`` will become the name of the attribute for the geometry field.
+Defaults to ``'location'``
 
 Then in the django shell
 
