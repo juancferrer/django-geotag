@@ -3,7 +3,7 @@ Django Geotag
 
 A tagging application in the spirit of ``'django-tagging'``.
 It allows to tag any django model with any number of Geodjango geometry fields
-such as Point, Polygon, etc...
+such as PointField, PolygonField, etc...
 
 Installation
 ------------
